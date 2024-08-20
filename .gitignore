@@ -1,4 +1,4 @@
 deploy.sh
-./build
+build/
 __pycache__/
 .venv/
