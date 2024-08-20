@@ -20,8 +20,8 @@ html, body {
     
     background-color: transparent;
     & a:link {
-        color: #3882d2;
         text-decoration: none;
+        color: #3882d2;
     }
     & a:visited {
         text-decoration: none;
@@ -33,6 +33,10 @@ html, body {
     border-color: #3882d2;
     color: white;
     text-decoration: underline;
+    & a:link {
+        text-decoration: none;
+        color: white;
+    }
     & a:visited {
         text-decoration: underline;
         color: white;
