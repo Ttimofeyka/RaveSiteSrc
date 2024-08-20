@@ -5,7 +5,7 @@ import re
 import time
 
 
-VERSION = (3, 0, 0, 1)
+VERSION = (3, 0, 0, 2)
 VERSIONSTR = ".".join(map(str, VERSION))
 
 def process_css(text):
@@ -47,7 +47,7 @@ def on_change():
     print(f"Repacking!")
     if os.path.isdir("build"):
         shutil.rmtree("./build/")
-        os.mkdir("./build/")
+    os.mkdir("./build/") # bugfix
 
     if not os.path.isdir("./src"):
         os.mkdir("./src/")
