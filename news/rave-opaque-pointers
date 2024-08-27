@@ -1,0 +1,5 @@
+1724786852
+Language//blue;;Infrastructure//red
+Increasing requirements to LLVM 14 and higher
+The transition to opaque pointers has been made.
+The transition from typed to opaque pointers was made as part of the LLVM update.<br>Now the working versions of LLVM are from 14 to 18 inclusive.
